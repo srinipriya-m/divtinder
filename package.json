@@ -1,0 +1,23 @@
+{
+  "name": "divtinder",
+  "version": "1.0.0",
+  "description": "Tinder for dev",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "microservices",
+    "for",
+    "nodejs"
+  ],
+  "author": "srini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7"
+  }
+}
